@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/cart/cart",
+    "pages/member/member"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "吉海商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#bd0004",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/cart.png",
+        "selectedIconPath": "static/cart-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/news.png",
+        "selectedIconPath": "static/news-active.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/member.png",
+        "selectedIconPath": "static/member-active.png",
+        "text": "会员"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
